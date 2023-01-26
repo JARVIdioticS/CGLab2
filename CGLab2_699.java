@@ -50,7 +50,7 @@ class CGLab2_699 extends JPanel
 
     public static void DDALine(Graphics g, int x1, int y1, int x2, int y2)
     {
-        if (x1 > x2 || y1 > y2){
+        if (x1 > x2 && y1 > y2){
             int tmp = x1;
             x1 = x2;
             x2 = tmp;
